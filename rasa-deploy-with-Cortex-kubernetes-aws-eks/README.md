@@ -7,7 +7,7 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 
 
 ## Requirements
-- A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction.
+- A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction. The model must be extracted, not in tar.gz.
 - [Cortex](https://docs.cortex.dev/) install and documentation read
 
 ## Deployment
