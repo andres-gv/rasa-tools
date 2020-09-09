@@ -5,7 +5,20 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 
 
 ## Requirements
--[Cortex](https://docs.cortex.dev/) install
+- A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction.
+- [Cortex](https://docs.cortex.dev/) install and documentation read
+
+## Deployment
+By deploying the intent-entity extractor with [Cortex](https://docs.cortex.dev/), these are the files needed, an
+the local deploy is:
+cortex deploy
+
+the deploy in AWS is:
+
+cortex cluster up
+
+
+
 
 
 
