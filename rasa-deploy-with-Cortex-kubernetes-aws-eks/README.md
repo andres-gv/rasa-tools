@@ -11,8 +11,11 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 - [Cortex](https://docs.cortex.dev/) install and documentation read
 
 ## Deployment
-By deploying the intent-entity extractor with [Cortex](https://docs.cortex.dev/), the files needed are included below.
-The needed change is in the file predictor.py, the other files can be uses as described in  [Cortex](https://docs.cortex.dev/) documentation.
+By deploying the intent-entity extractor with [Cortex](https://docs.cortex.dev/), the files needed are included below or
+you can use a customized version.
+
+
+The unique important consideration is in the file  predictor.py, which must be used following an structure similar as shown below,  the other files can be used as described in  [Cortex](https://docs.cortex.dev/) documentation.
 
 ```python
 import json
