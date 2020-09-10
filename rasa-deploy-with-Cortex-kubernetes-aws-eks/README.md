@@ -10,7 +10,7 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 - A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction. The model must be extracted, not in tar.gz.
 - [Cortex](https://docs.cortex.dev/) install and documentation review
 
-## Deployment
+## 1.3 Deployment
 By deploying the intent-entity extractor with [Cortex](https://docs.cortex.dev/), the files needed are included below or
 you can use a customized version.
 
@@ -44,7 +44,7 @@ and the deploy in AWS is:
 cortex cluster up
 ```
 
-## 1.3 Quick use
+## 1.4 Quick use
 1 model creation:
 ```bash
 rasa init
