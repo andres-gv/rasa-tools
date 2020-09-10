@@ -63,6 +63,9 @@ cortex deploy
 cortex cluster up
 ```
 
+A similar strategy could be followed to deploy another types of Rasa-APIs.
+
+
 
 
 
