@@ -44,6 +44,25 @@ and the deploy in AWS is:
 cortex cluster up
 ```
 
+## Quick use
+1 model creation:
+```bash
+rasa init
+```
+extract tar.gz file and then in the predictor.py file set the model path
+
+2a model local deploy
+
+```bash
+cortex deploy
+```
+
+2b model AWS deploy
+
+```bash
+cortex cluster up
+```
+
 
 
 
