@@ -1,12 +1,12 @@
-# Rasa model-API deploy with Cortex in AWS (EKS - Kubernetes)
+# 1 Rasa model-API deploy with Cortex in AWS (EKS - Kubernetes)
 
-## Description
+## 1.1 Description
 This is a deployment example of an intent-entity extractor built with [Rasa](https://rasa.com/docs/).
 
 The deployment is done by using [Cortex](https://docs.cortex.dev/), a very interesting open source software that allows to deploy AI-APIs in AWS using flexible infrastructure, including Kubernetes.
 
 
-## Requirements
+## 1.2 Requirements
 - A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction. The model must be extracted, not in tar.gz.
 - [Cortex](https://docs.cortex.dev/) install and documentation review
 
@@ -44,7 +44,7 @@ and the deploy in AWS is:
 cortex cluster up
 ```
 
-## Quick use
+## 1.3 Quick use
 1 model creation:
 ```bash
 rasa init
@@ -66,7 +66,8 @@ cortex cluster up
 A similar strategy could be followed to deploy another types of Rasa-APIs.
 
 
-# Architecture diagram
+# 2 Cortex Architecture diagram
+[Architecture](https://docs.cortex.dev/miscellaneous/architecture)
 
 ![architecture diagram](https://user-images.githubusercontent.com/808475/83995909-92c1cf00-a90f-11ea-983f-c96117e42aa3.png)
 
