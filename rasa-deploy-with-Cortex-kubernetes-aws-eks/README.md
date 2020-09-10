@@ -23,7 +23,7 @@ import subprocess
 
 class PythonPredictor:
     def __init__(self, config):
-        subprocess.call("python -m spacy download es_core_news_sm".split(" "))
+        subprocess.call("python -m spacy download en_core_news_sm".split(" "))
         self.model = Interpreter.load('models/20200821-014743/nlu') ## this should be an extracted model. Set your model path
 
     def predict(self, payload):
