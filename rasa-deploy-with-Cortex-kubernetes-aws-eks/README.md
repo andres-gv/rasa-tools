@@ -8,7 +8,7 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 
 ## Requirements
 - A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction. The model must be extracted, not in tar.gz.
-- [Cortex](https://docs.cortex.dev/) install and documentation read
+- [Cortex](https://docs.cortex.dev/) install and documentation review
 
 ## Deployment
 By deploying the intent-entity extractor with [Cortex](https://docs.cortex.dev/), the files needed are included below or
@@ -49,15 +49,15 @@ cortex cluster up
 ```bash
 rasa init
 ```
-extract tar.gz file and then in the predictor.py file set the model path
+extract tar.gz file,  then in the predictor.py file set the model path
 
-2a model local deploy
+2a Model local deploy
 
 ```bash
 cortex deploy
 ```
 
-2b model AWS deploy
+2b Model AWS deploy
 
 ```bash
 cortex cluster up
