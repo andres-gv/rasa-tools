@@ -63,7 +63,7 @@ cortex cluster up
 
 3 API Request: 
 ```bash
-curl http://localhost:8888 -X POST -H "Content-Type: application/json" -d '{"text": "creatinina 56  albuminuria 80"}'
+curl http://localhost:8888 -X POST -H "Content-Type: application/json" -d '{"text": "hello, I want to test the API"}'
 ```
 
 A similar strategy could be followed to deploy another types of Rasa-APIs.
