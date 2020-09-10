@@ -3,7 +3,7 @@
 ## 1.1 Description
 This is a deployment example of an intent-entity extractor built with [Rasa](https://rasa.com/docs/).
 
-The deployment is done by using [Cortex](https://docs.cortex.dev/), a very interesting open source software that allows to deploy AI-APIs in AWS using flexible infrastructure, including Kubernetes.
+The deployment is done by using [Cortex](https://docs.cortex.dev/), a very interesting open source software that allows to deploy AI-APIs in AWS though  customizable infrastructures, including Kubernetes with cpus and gpus.
 
 
 ## 1.2 Requirements
@@ -11,10 +11,10 @@ The deployment is done by using [Cortex](https://docs.cortex.dev/), a very inter
 - [Cortex](https://docs.cortex.dev/) install and documentation review
 
 ## 1.3 Deployment
-To deploy an intent-entity extractor with [Cortex](https://docs.cortex.dev/), the source files are included in the repository or
+To deploy an intent-entity extractor with [Cortex](https://docs.cortex.dev/), the source files are included in this repository or
 you can use a customized version.
 
-The unique important consideration is in the file  predictor.py, which must be used following an structure similar as shown below,  the other files can be used as described in  [Cortex](https://docs.cortex.dev/) documentation.
+The unique important consideration is in the file  predictor.py, which should have a structure similar as shown below,  the other files can be used as described in  [Cortex](https://docs.cortex.dev/) documentation.
 
 ```python
 import json
