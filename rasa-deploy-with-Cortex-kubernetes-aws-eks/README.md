@@ -3,8 +3,9 @@
 ## 1.1 Description
 This is a deployment example of an intent-entity extractor built with [Rasa](https://rasa.com/docs/).
 
-The deployment is done by using [Cortex](https://docs.cortex.dev/), a very interesting open source software that allows to deploy AI-APIs in AWS though  customizable infrastructures, including Kubernetes with CPUs and GPUs.
+The deployment is done by using [Cortex](https://docs.cortex.dev/), a very powerful open source software that allows to deploy AI-APIs in AWS though  customizable infrastructures, including Kubernetes with CPUs and GPUs.
 
+In [Cortex](https://docs.cortex.dev/) both, Realtime-APIs and Batch-APs can be deployed, in this repository a Realtime-API is deployed.
 
 ## 1.2 Requirements
 - A model built with [Rasa](https://rasa.com/docs/) for intent entity extraction. The model must be extracted, not in tar.gz.
@@ -35,6 +36,7 @@ By following the [Cortex](https://docs.cortex.dev/)  documentation,  the local d
 
 ```bash
 cortex deploy
+cortex get <name in cortex.yaml> --env aws
 ```
 
 and the deploy in AWS is:
